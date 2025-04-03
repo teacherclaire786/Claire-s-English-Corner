@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claire's English Corner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .header {
+            background: #6cc;
+            padding: 20px;
+        }
+        .logo {
+            max-width: 200px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #218838;
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="LOGO.jpg" alt="Claire's English Corner Logo" class="logo">
+        <h1>Helping English Take Flight!</h1>
+    </div>
+
+    <div class="container">
+        <h2>Learn English with a Patient & Fun Tutor</h2>
+        <p>With over 4 years of experience teaching students of all ages, Claire makes learning English easy, fun, and effective.</p>
+        <p>Whether you want to improve your pronunciation, grammar, or speaking skills, we have the right lessons for you.</p>
+        <a href="#book" class="cta-button">Book a Free Call</a>
+    </div>
+
+    <div class="container" id="book">
+        <h2>Why Choose Claire's English Corner?</h2>
+        <ul>
+            <li>✅ Personalized lessons for kids & adults</li>
+            <li>✅ Fun & engaging learning methods</li>
+            <li>✅ Improve confidence in speaking & writing</li>
+        </ul>
+        <p>Book a free consultation to discuss your English goals!</p>
+        <a href="https://calendly.com/your-link" class="cta-button">Book a Free Call</a>
+    </div>
+
+    <div class="footer">
+        <p>Contact: claire@example.com | Follow us on Social Media</p>
+    </div>
+</body>
+</html>
